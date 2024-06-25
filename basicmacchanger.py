@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#This script is designed to change the mac address of a network device on your linux computer.
 import subprocess
 import optparse
 
