@@ -10,6 +10,7 @@ def change_mac(interface, new_mac):
     subprocess.call(["ifconfig", interface, "hw", "ether", new_mac])
     subprocess.call(["ifconfig", interface, "up"])
 
+
 parser = optparse.OptionParser()
 
 parser.add_option("-i", "--interface", dest="interface", help="Interface to change its MAC address")
