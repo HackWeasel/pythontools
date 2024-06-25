@@ -2,7 +2,7 @@
 import subprocess
 import optparse
 
-#This script is designed to change the MAC address of a network interface on a linux computer.
+#This script is designed to change the MAC address of a network interface on linux.
 
 
 def get_arguments():
